@@ -1,7 +1,63 @@
-#kitty{
+.body { 
+    background-color: beige;
+    
+}
+.header1 {
+    text-align: center;
+}
+.header2 {
+    text-align: center;
+}
+.header3 {
+    padding: 1px;
+    text-align: left;
+    border-bottom: 3px solid black;
+}
+.header4 {
+    padding: 1px;
+    text-align: left;
+    border-bottom: 3px solid black;
+}
+.header5{
+    text-align: left;
+    border-bottom: 3px solid black;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(3,.25 fr);
+    grid-template-rows: repeat(3,minmax(2px,auto));
+    padding: 1px;
+}
+.chicoi{
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+.chicoc{
+    grid-column: 3/4;
+    grid-row: 1/2;
+}
+.portervillei{
+    grid-column: 1/2;
+    grid-row: 2/3
+}
+.portervillec{
+    grid-column: 3/4;
+    grid-row: 2/3;
+
+}
+.strathmorei{
+    grid-column: 1/2;
+    grid-row: 3/4
+
+}
+.strathmorec{
+    grid-column: 3/4;
+    grid-row: 3/4;
+}
+/* #kitten{
     width: 100px;
     height: 100px;
     position: relative;
     top: 0;
     left: 0;
-}
+} */
